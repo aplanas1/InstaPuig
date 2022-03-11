@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/signInFragment">
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="aplanas.socialapp.signInFragment"
+        android:label="Sign In"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/signOutFragment"
+        android:name="aplanas.socialapp.signOutFragment"
+        android:label="Sing Out"
+        tools:layout="@layout/fragment_sign_out" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="aplanas.socialapp.registerFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="aplanas.socialapp.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="aplanas.socialapp.homeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/NewPostFragment"
+        android:name="aplanas.socialapp.NewPostFragment"
+        android:label="New Post"
+        tools:layout="@layout/fragment_new_post" />
+    <fragment
+        android:id="@+id/mediaFragment"
+        android:name="aplanas.socialapp.MediaFragment"
+        android:label="Media"
+        tools:layout="@layout/fragment_media" />
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="aplanas.socialapp.UserProfileFragment"
+        android:label="User Profile"
+        tools:layout="@layout/fragment_user_profile" />
+    <fragment
+        android:id="@+id/homeDate"
+        android:name="aplanas.socialapp.homeDateFragment"
+        android:label="Home By Date"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/homeLikes"
+        android:name="aplanas.socialapp.homeLikesFragment"
+        android:label="Home By Likes"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/homeImages"
+        android:name="aplanas.socialapp.homeImagesFragment"
+        android:label="Home Images"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/homeVideos"
+        android:name="aplanas.socialapp.homeVideoFragment"
+        android:label="Home Videos"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/homeAudios"
+        android:name="aplanas.socialapp.homeAudioFragment"
+        android:label="Home Audios"
+        tools:layout="@layout/fragment_home" />
+
+</navigation>

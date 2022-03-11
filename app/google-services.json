@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "98952299112",
+    "project_id": "socialapp-1547d",
+    "storage_bucket": "socialapp-1547d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98952299112:android:2323e53dc2f37845c831dd",
+        "android_client_info": {
+          "package_name": "aplanas.socialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98952299112-qgrfptdtehv14ok6m0tt1jfj01vvvdma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdQnWpF8DbxZVcJoh0LVQN0As4oDiN_i0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98952299112-qgrfptdtehv14ok6m0tt1jfj01vvvdma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
